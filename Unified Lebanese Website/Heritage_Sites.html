@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unified</title>
+    <link rel="icon" href="Lebanese_Flag.jpg">
+</head>
+
+<body>
+    <style>
+        html {
+            background-color: #eeeeee;
+        }
+        
+        .cards {
+            margin: 0 auto;
+            max-width: 1000px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-auto-rows: auto;
+            gap: 20px;
+            font-family: sans-serif;
+            padding-top: 30px;
+        }
+        
+        .cards * {
+            box-sizing: border-box;
+        }
+        
+        .card__image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            display: block;
+            border-top: 2px solid #333333;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__content {
+            line-height: 1.5;
+            font-size: 0.9em;
+            padding: 15px;
+            background: #fafafa;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__content>p:first-of-type {
+            margin-top: 0;
+        }
+        
+        .card__content>p:last-of-type {
+            margin-bottom: 0;
+        }
+        
+        .card__info {
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #555555;
+            background: #eeeeee;
+            font-size: 0.8em;
+            border-bottom: 2px solid #333333;
+            border-right: 2px solid #333333;
+            border-left: 2px solid #333333;
+        }
+        
+        .card__info i {
+            font-size: 0.9em;
+            margin-right: 8px;
+        }
+        
+        .card__link {
+            color: #64968c;
+            text-decoration: none;
+        }
+        
+        .card__link:hover {
+            text-decoration: underline;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <div class="cards">
+        <div class="card">
+            <img class="card__image" src="./Heritage/Byblos.jpg" alt="" style="height:fit">
+            <div class="card__content">
+                <p>
+                    The ruins of many successive civilizations are found at Byblos, one of the oldest Phoenician cities. Inhabited since Neolithic times, it has been closely linked to the legends and history of the Mediterranean region for thousands of years. Byblos is also
+                    directly associated with the history and diffusion of the Phoenician alphabet.
+                    <br><br><br><br>
+                </p>
+            </div>
+            <div class="card__info">
+
+                <div>
+                    <a href="https://whc.unesco.org/en/list/295/" class="card__link">View page</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card__image" src="./Heritage/Baalbek.jpg" alt="">
+            <div class="card__content">
+                <p>
+                    This Phoenician city, where a triad of deities was worshipped, was known as Heliopolis during the Hellenistic period. It retained its religious function during Roman times, when the sanctuary of the Heliopolitan Jupiter attracted thousands of pilgrims.
+                    Baalbek, with its colossal structures, is one of the finest examples of Imperial Roman architecture at its apogee. </p>
+                    <br><br>
+            </div>
+            <div class="card__info">
+
+                <div>
+                    <a href="https://whc.unesco.org/en/list/294" class="card__link">View page</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card__image" src="./Heritage/Qadisha.jpg" alt="">
+            <div class="card__content">
+                <p>
+                    Ouadi Qadisha(In arabic: Wadi Qadisha) (the Holy Valley) and the Forest of the Cedars of God (Horsh Arz el-Rab) The Qadisha valley is one of the most important early Christian monastic settlements in the world. Its monasteries, many of which are of a
+                    great age, stand in dramatic positions in a rugged landscape. Nearby are the remains of the great forest of cedars of Lebanon, highly prized in antiquity for the construction of great religious buildings.
+                </p>
+
+            </div>
+            <div class="card__info">
+
+                <div>
+                    <a href="https://whc.unesco.org/en/list/850" class="card__link">View Page</a>
+                </div>
+            </div>
+        </div>
+        <div class="card ">
+            <img class="card__image " src="./Heritage/Tyre.jpg" alt=" ">
+            <div class="card__content ">
+                <p>
+                    According to legend, purple dye was invented in Tyre. This great Phoenician city ruled the seas and founded prosperous colonies such as Cadiz and Carthage, but its historical role declined at the end of the Crusades. There are important archaeological
+                    remains, mainly from Roman times.</p>
+                <br><br> <br> <br>
+            </div>
+            <div class="card__info ">
+
+                <div>
+                    <a href="https://whc.unesco.org/en/list/299" class="card__link ">View page</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="card__image" src="./Heritage/Anjar.jpg" alt="">
+            <div class="card__content">
+                <p>
+                    The city of Anjar was founded by Caliph Walid I at the beginning of the 8th century. The ruins reveal a very regular layout, reminiscent of the palace-cities of ancient times, and are a unique testimony to city planning under the Umayyads.
+                    <br><br> <br><br><br> <br> <br>
+            </div>
+
+            <div class="card__info">
+
+                <div>
+                    <a href="https://kafa.org.lb/en/about " class="card__link ">View page</a>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
